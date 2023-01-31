@@ -48,7 +48,7 @@ function App() {
           return (
             <div key={nanoid()}>
               <h2>{result.name}</h2>
-              <h3>Nepo baby net worth: {result.net_worth}</h3>
+              <h3>Nepo baby net worth from 2023: {result.net_worth}</h3>
             </div>
           );
         })
